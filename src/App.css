@@ -9,6 +9,22 @@
   margin: auto;
 }
 
+.add-button{
+  position: fixed;
+  bottom: 33px;
+  right: 29px;
+  background: #605aa6;
+  height: 70px;
+  width: 70px;
+  font-size: 28px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+
 .view-form,
 .edit-form {
   max-width: 700px;

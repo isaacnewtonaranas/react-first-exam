@@ -14,22 +14,13 @@ class App extends Component {
     
     return (
       <Router>
+          <Link to={"/add"} className="add-button">
+            <i className="fa fa-plus fa-lg"></i>
+          </Link>
         <nav className="navbar navbar-expand navbar-dark p-3">
           <Link to={"/posts"} className="navbar-brand">
             <span className="ml-2">Front End Dev Exam</span>
           </Link>
-          <div className="navbar-nav mr-auto">
-            <li className="nav-item">
-              <Link to={"/posts"} className="nav-link">
-                Posts
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to={"/add"} className="nav-link">
-                Add
-              </Link>
-            </li>
-          </div>
         </nav>
 
         <div className="container-fluid mt-3">

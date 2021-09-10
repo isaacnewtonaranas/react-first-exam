@@ -1,0 +1,61 @@
+.list {
+  text-align: left;
+  margin: auto;
+  max-width: 1743px;
+}
+
+.submit-form {
+  max-width: 700px;
+  margin: auto;
+}
+
+.view-form,
+.edit-form {
+  max-width: 700px;
+  margin: auto;
+}
+
+.navbar {
+  background-color: #605aa6;
+}
+
+.clamp1{
+  -webkit-line-clamp: 1;
+}
+
+.clamp2{
+  -webkit-line-clamp: 2;
+}
+
+.ellipsis {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.bg-purple{
+  background:#605aa6;
+  border-color:#605aa6;
+}
+
+.bg-purple:hover,
+.bg-pink:focus {
+  background: #8079d6;
+  border-color: #8079d6;
+}
+
+.bg-pink {
+  background-color: #dc357a;
+  border-color: #dc35b8;
+}
+.bg-pink:hover,
+.bg-pink:focus {
+  background-color: #eb4389;
+  border-color: #e941c4;
+}
+
+.cursor-pointer{
+  cursor:pointer
+}
